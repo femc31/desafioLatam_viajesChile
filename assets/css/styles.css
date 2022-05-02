@@ -1,0 +1,128 @@
+/**** estilos genericos ****/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border-top: 2px solid #17A2B8;
+}
+.fondo-oscuro {
+    background-color: #000;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+.fondo-celeste {
+    background-color: #17A2B8;
+}
+
+/**** menu ****/
+.navbar {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: none;
+    width:100%;
+}
+
+.fa-bars {
+    color:#fff; 
+    font-size: 28px;
+}
+
+.navbar-brand img {
+    width: 3rem;
+}
+
+/**** carrusel ****/
+.carousel {
+    top:0;
+}
+
+.carousel-inner {
+    width: 100%; 
+    overflow: hidden;
+}
+
+/**** quienes somos ****/
+.quienes-somos-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.quienes-somos-section h1 {
+    color: #fff;
+    text-align: center;
+}
+.fas {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+/**** destacados ****/
+.destacados-section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+/**** contacto ****/
+.contacto-section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contacto-section h1 {
+    color: #fff;
+    text-align: center;
+}
+
+/**** footer ****/
+.footer-section {
+    padding-top: 1rem;
+    padding-bottom: 10px;
+}
+
+.footer-section h3 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fab {
+    font-size: 2rem;
+    color: white;
+}
+
+
+/******* MEDIA QUERIES *******/
+/* pantalla medium >768 <992*/
+@media (max-width: 991.98px) {
+    
+    .card {
+        min-width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+/* pantalla small >576 <768*/
+@media (max-width: 767.98px) {
+
+    .quienes-somos-section {
+        display: none;
+    }
+    
+    .destacados-section {
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .contacto-section {
+        padding-top: 1rem;
+    }
+
+}
